@@ -20,7 +20,7 @@ function handleGuessSubmit(event) {
         if (userGuess === randomNumber) {
             gameOutput.textContent = `Congratulations! You guessed correctly!`;
         } else {
-            gameOutput.textContent = `Sorry, your guess (${userGuess}) was incorrect. The correct number was ${randomNumber}. Try again!`;
+            gameOutput.textContent = `Oops! Your guess (${userGuess}) was incorrect. The correct number was ${randomNumber}. Try again!`;
         }
 
         numGuessInput.value = '';
